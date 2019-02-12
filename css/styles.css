@@ -415,3 +415,32 @@ nav h1 a {
   }
   
 }
+
+@media screen and (min-width:1600px) {
+  .inside header {
+    width: 100%;
+    
+  }
+  .inside #footer{
+    width: 100%;
+  }
+  #restaurant-img {
+    width: 30%;
+    height: 50%;
+    
+  }
+  #restaurant-cuisine {
+    width: 30%;
+  }
+  /*#main-content{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+  }*/
+  
+  .inside nav h1 a{
+    font-size: 100%;
+   justify-content: center;
+    
+  }
+}
