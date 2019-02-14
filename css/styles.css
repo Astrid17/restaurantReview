@@ -325,7 +325,9 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
+  /* color: black; */
     border: 2px solid #f3f3f3;
+    /* border: 2px solid black; */
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -336,6 +338,9 @@ nav h1 a {
 }
 #reviews-list li p {
   margin: 0 0 10px;
+  /* background-color:  #f58500;  */
+  /* p-border: 2px solid black; */
+  
 }
 #restaurant-hours td {
   color: #666;
@@ -376,7 +381,7 @@ nav h1 a {
     align-self: auto;
     width: 100%;
   }
-  #restaurant-container, #reviews-container
+  #restaurant-container
   {
     align-self: center;
     margin-left: 30px;
@@ -384,6 +389,8 @@ nav h1 a {
   }
   #reviews-container {
    top: 500px;
+   align-self: center;
+   margin-left: 30px;
   }
   .inside header {
     width: 90%;
@@ -413,6 +420,15 @@ nav h1 a {
     text-align: center;
     /* flex-wrap: wrap; */
   }
+  #footer {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .inside header {
+    width: 100%;
+  }
   
 }
 
@@ -425,22 +441,57 @@ nav h1 a {
     width: 100%;
   }
   #restaurant-img {
-    width: 30%;
-    height: 50%;
+    width: 60%;
+    height: 30%;
     
   }
   #restaurant-cuisine {
     width: 30%;
   }
-  /*#main-content{
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-  }*/
+  
   
   .inside nav h1 a{
     font-size: 100%;
    justify-content: center;
     
+  }
+ 
+  #restaurant-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    /* top: 10px; */
+   
+  }
+  
+  #reviews-container {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 30%;
+    height: 60%;
+   
+  }
+  #reviews-list li{
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  #main-content {
+    justify-content: center;
+    align-items: center;
+   
+  }
+  #footer {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+  }
+  #map {
+    height: 100%;
   }
 }
