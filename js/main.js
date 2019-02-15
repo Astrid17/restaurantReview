@@ -5,19 +5,19 @@ var newMap
 var markers = []
 
 
-  if('serviceWorker' in navigator) {
-    window.addEventListener('load', function () {
-      navigator.serviceWorker.register('/sw.js')
-    .then(function(reg) {
-      console.log('Service worker registered! ');
-
-    })
-    .catch(function (err) {
-      console.log('Service Worker registration failed: ' + err);
-    });
-    })
+  // if('serviceWorker' in navigator) {
     
-  }
+  //     navigator.serviceWorker.register('js/sw.js')
+  //   .then(function(reg) {
+  //     console.log('Service worker registered! ');
+
+  //   })
+  //   .catch(function (err) {
+  //     console.log('Service Worker registration failed: ' + err);
+  //   });
+    
+    
+  // }
 
 
 
@@ -226,4 +226,5 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     self.markers.push(marker);
   });
 } */
+
 
